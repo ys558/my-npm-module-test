@@ -69,24 +69,9 @@ npm ERR! A complete log of this run can be found in:
 npm ERR!     C:\Users\yuyi\AppData\Roaming\npm-cache\_logs\2021-07-04T12_02_21_879Z-debug.log
 ```
 
-2. 如出现以下错误，可以到npm官网搜索一下，你的模块是否重名或者和别人的太过于近似：
+2. 如出现以下错误，可以到npm官网搜索一下，你的模块是否重名或者和别人的太过于近似，得考虑改名：
 
 ```bash
-xxx@xxxMacBook-Pro yyt % npm publish
-npm notice 
-npm notice 📦  y-cli@0.0.1
-npm notice === Tarball Contents === 
-npm notice 3.0kB bin/yyt.js  
-npm notice 512B  package.json
-npm notice === Tarball Details === 
-npm notice name:          y-cli                                   
-npm notice version:       0.0.1                                   
-npm notice package size:  1.8 kB                                  
-npm notice unpacked size: 3.5 kB                                  
-npm notice shasum:        c8a82226eb3dc417171c442c6da030144c9c7897
-npm notice integrity:     sha512-OGxQDMPo5rBb7[...]QxNGm5/c6Jcrw==
-npm notice total files:   2                                       
-npm notice 
 npm ERR! code E403
 npm ERR! 403 403 Forbidden - PUT https://registry.npmjs.org/y-cli - You do not have permission to publish "y-cli". Are you logged in as the correct user?
 npm ERR! 403 In most cases, you or one of your dependencies are requesting
