@@ -121,3 +121,10 @@ npm notice total files:   3
 npm notice
 + my-package-publish-test@1.0.0
 ```
+
+## 6. 一些常用命令
+
+查询已登陆账号名：
+> `npm whoami`
+
+
