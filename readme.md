@@ -96,9 +96,9 @@ npm ERR! A complete log of this run can be found in:
 npm ERR!     /Users/ziyouzhiyi/.npm/_logs/2021-10-25T02_16_02_850Z-debug.log
 ```
 
-最后运行以下命令，即可发布成功属于自己的npm package
+最后运行以下命令，即可发布成功属于自己的npm package, 后面的 `--access public` 可以省略，默认是发布到公共仓库
 ```bash
-npm publish
+npm publish --access public
 ```
 
 发布成功：
